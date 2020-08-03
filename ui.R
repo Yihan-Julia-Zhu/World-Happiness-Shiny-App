@@ -31,7 +31,14 @@ is to provide life to the available raw data with visual graphics.")),
                                                     "Govt_Corruption","Generosity")),
       
       selectInput("year", "Select a year",
-                  choices = as.character(unique(Happiness_Data$Year)))
+                  choices = as.character(unique(Happiness_Data$Year))),
+      
+      
+      br(),
+      br(),
+    
+      
+      h6("The code and data can be found in", a("the github repo",href="https://github.com/Yihan-Julia-Zhu/World-Happiness-Shiny-App",target="_blank"))
     ),
     
     
